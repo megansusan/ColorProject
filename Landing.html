@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Welcome to Colorproject</title>
+  <link rel="stylesheet" href="landing-style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="wrapper"></div>
+      <img class="crypco-logo" src = "image/crypcol.png" alt="mylogo">
+
+      <div class="video-container">
+        <video autoplay muted loop id="bgVideo">
+        <source src="video/video-2.mov" type="video/mp4">
+     </video>
+
+     <div class="landing-content">
+        <h1>AN NFT DESIGNED TO CAPTURE YOUR MOOD THROUGH COLOR</h1> 
+        <p>Scroll down to start</p>
+        <a class="scroll-down" href="#about">
+        <span></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- section one -->
+   <div id="about" class="one">
+    <h2>Crypcol is designed to help individuals become more in tune with <br> their emotions & personalities and foster happiness.It’s a unique token<br>that brings the power of color into your daily life, a force that can really <br>affect your mood and mental well-being.
+      <br><br>With Crypcol, you can actually track your daily emotions using colors<br> and gives you the chance to own a color that tells your story and <br> reflects your awesome personality. </h2>
+    <a class="scroll-down" href="#flow"></a>
+
+    <!-- <img class="first-image-b" src ="image/background.png"> -->
+
+  </div>
+  <div id="flow" class="nextpage">
+    <div class="column column1">
+      <a href="index.html">
+      <!-- <img src ="image/calendar.png"> -->
+      <h3>STEP 1</h3>
+      <p1> Capture your daily emotions on our website <br>(Click Me to Explore)</p1>
+    </a>
+
+
+    </div>
+    <div class="column column2">
+      <h4>STEP 2 </h4>
+        <p2>After logging in for 5 consecutive days, <br>you'll receive a CRYPCOL NFT </p2>
+        
+    </div>
+    <div class="column column3">
+      <video src="video/circle-2.mov" autoplay muted loop></video>
+      <h5>STEP 3 </h5><p3>If you log in for 10 days, you can get a second one, and after 15 days, you'll receive the third</p3>
+    </div>
+    <div class="column column4">
+      <h6>STEP 4</h6><p4>Let's take a look of some CRYPCOL!!!</p4>
+    </div>
+    <a class="scroll-down" href="#showcase"> 
+    </a>
+  </div>
+  
+  
+
+  <!-- //last page// -->
+  <div id="showcase" class="show">
+    <div class="show1">
+      <video src="video/cc-5.mov" autoplay muted loop></video>
+      <h7>1</h7>
+    </div>
+
+    <div class="show2">
+      <video src="video/cc-3.mov" autoplay muted loop></video>
+      <h7>2</h7>
+    </div>
+
+    <div class="show3">
+      <video src="video/cc-2.mov" autoplay muted loop></video>
+      <h7>3</h7>
+    </div>
+
+    <div class="show4">
+      <video src="video/cc-4.mov" autoplay muted loop></video>
+      <h7>4</h7>
+    </div>
+
+    <div class="show5">
+      <video src="video/cc-1.mov" autoplay muted loop></video>
+      <h7>5</h7>
+    </div>
+
+    <!-- <div class="show6">
+      <img src="image/deco.png" alt="deco1">
+    </div> -->
+
+  
+  </div>
+  
+  
+  
+
+
+  <script src="landing-script.js" defer></script>
+
+
+  <script>
+    // Optional: Add smooth scrolling effect
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
